@@ -1,34 +1,74 @@
-# Welcome to Remix!
+<p align="center">
+  <a href="https://github.com/iamsahebgiri/add-readme">
+    <img alt="shark-tank-india" height="80" src="https://raw.githubusercontent.com/iamsahebgiri/add-readme/main/static/add-readme.png">
+  </a>
+</p>
+<h1 align="center">Shark Tank India Meme API</h1>
 
-- [Remix Docs](https://remix.run/docs)
+<div align="center">
+API for shark tank india meme.
+</div>
 
-## Deployment
+<br />
 
-After having run the `create-remix` command and selected "Vercel" as a deployment target, you only need to [import your Git repository](https://vercel.com/new) into Vercel, and it will be deployed.
+<div align="center">
+  <a href="https://standardjs.com">
+    <img src="https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat-square"
+      alt="Standard" />
+  </a>
+  
+  <img src="https://img.shields.io/github/languages/code-size/iamsahebgiri/shark-tank-india?style=flat-square" alt="Code size" />
 
-If you'd like to avoid using a Git repository, you can also deploy the directory by running [Vercel CLI](https://vercel.com/cli):
+  <img src="https://img.shields.io/github/license/iamsahebgiri/shark-tank-india?style=flat-square" alt="License" />
 
-```sh
-npm i -g vercel
-vercel
-```
+  <img alt="GitHub contributors" src="https://img.shields.io/github/contributors/iamsahebgiri/shark-tank-india?style=flat-square">
 
-It is generally recommended to use a Git repository, because future commits will then automatically be deployed by Vercel, through its [Git Integration](https://vercel.com/docs/concepts/git).
+  <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/iamsahebgiri/shark-tank-india?style=social">
+</div>
 
-## Development
+## ⚡️ Introduction
 
-To run your Remix app locally, make sure your project's local dependencies are installed:
+This API gives shark tank memes images including Ashneer Grover to Anupam Mittal. Use it for free without any limitation.
 
-```sh
-npm install
-```
+## 🎯 Features
 
-Afterwards, start the Remix development server like so:
+- Super fast API
+- Serverless architecture
+- Free forever
 
-```sh
-npm run dev
-```
+## 📚️ API Documentation
 
-Open up [http://localhost:3000](http://localhost:3000) and you should be ready to go!
 
-If you're used to using the `vercel dev` command provided by [Vercel CLI](https://vercel.com/cli) instead, you can also use that, but it's not needed.
+#### GET [`/`](https://shark-tank-india.vercel.app/)
+
+Shows the current stable version
+
+#### GET [`/memes`](https://shark-tank-india.vercel.app/memes)
+
+Shows entire collections of memes
+
+#### GET [`/memes/:id`](https://shark-tank-india.vercel.app/memes/621bb2e70fed3eac155906f8)
+
+Shows a single meme
+
+#### GET [`/memes/random`](https://shark-tank-india.vercel.app/memes/random)
+
+Shows a random meme from collection
+
+
+## ‎‍💻 Author
+
+- [@iamsahebgiri](https://github.com/iamsahebgiri)
+
+## ⭐️ Contribute
+
+If you want to say thank you and/or support the active development of shark-tank-india:
+
+1. Add a GitHub Star to the project.
+2. Tweet about the project on your Twitter.
+3. Write a review or tutorial on Medium, Dev.to or personal blog.
+4. Support the project by donating a cup of coffee.
+
+## 🧾 License
+
+MIT License Copyright (c) 2022 [Saheb Giri](https://github.com/iamsahebgiri).
