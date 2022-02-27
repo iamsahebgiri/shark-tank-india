@@ -1,5 +1,5 @@
-import { db } from '~/utils/db.server';
+import { memes } from '~/data/memes';
 
 export const loader = async () => {
-  return await db.meme.findMany();
+  return memes;
 };
