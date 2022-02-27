@@ -1,0 +1,17 @@
+generator client {
+  provider        = "prisma-client-js"
+  previewFeatures = ["mongoDb"]
+}
+
+datasource db {
+  provider = "mongodb"
+  url      = env("DATABASE_URL")
+}
+
+model Meme {
+  id        String   @id @default(auto()) @map("_id") @db.ObjectId
+  title     String
+  url       String   @unique
+  createdAt DateTime @default(now()) @db.Timestamp()
+  updatedAt DateTime @updatedAt
+}
